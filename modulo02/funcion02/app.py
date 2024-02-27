@@ -1,11 +1,12 @@
-def suma(a=0, b=0):
-    return (a + b)
+def age ():
+    global currentYear
+    global birthYear
+    birthYear =2020
+    currentAge = currentYear - birthYear
+    print(f'Your age is {currentAge}')
 
-resultado = suma(10, 5)
-print(resultado)
+currentYear = int(input('Current Year: '))
+birthYear = int(input('Birth Year: '))    
 
-resultado = suma()
-print(resultado)
-
-resultado = suma(11)
-print(resultado)
+age()
+print(birthYear)
