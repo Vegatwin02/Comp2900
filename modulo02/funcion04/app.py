@@ -8,6 +8,6 @@ def despedida():
     nombre = "Sara Swan"
     print(f'Adios {nombre}')
 
-    saludo()
-    despedida()
-    print(nombre)
+saludo()
+despedida()
+print(nombre)
